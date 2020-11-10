@@ -13,6 +13,8 @@ then I calculate new position of the centroids by calculating the average positi
 each clusters, when we have the “final position” of the centroids, therefore final clusters I calculate
 the distances of the datapoints in the cluster from the centroid. I put this whole process in a for loop
 for different number of clusters so eventually I could see what is an ideal number of clusters.
+
+
 In the findBestK method is where the elbow method happens. I calculate the difference between
 each of the distances that are next to each other so I could see where the graph drops most
 dramatically. After that I put the differences in a new list and calculated the sum of all the
@@ -22,4 +24,6 @@ relative numbers that are less than 0.15 (so where the graph’s decline is not 
 one of them – because that is probably where is the elbow. Then I find to what K cluster does the
 first relative number that is smaller than 0.15 belongs to and in clusterList that contains all the
 clusters for all of K I choose the right one that I found (the lists are parallel).
+
+
 In the visualize method I display the datapoints and create nice colours for each of the clusters
