@@ -1,5 +1,6 @@
 # K-mean cluster analysis
 
+## Description
 In this assignment I tried to analyse Airline data using the K- mean cluster method. I found the data
 on the website FiveThirtyEight. The data set contains data from years 1985 – 1999 and 2000 – 2014.
 I used the more recent one and chose to analyse and display number of incidents in correlation to
