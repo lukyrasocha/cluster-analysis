@@ -15,7 +15,7 @@ def eucliD(point1, point2):
         sum = sum + diff
         distance = math.sqrt(sum)
     return distance
-    
+#small comment
 #This reads the data file and puts the items we want into a dictionary            
 def readAirlineFile(filename):
    with open (filename, "r") as fileHandler: # second argument means "read"
